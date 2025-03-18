@@ -144,7 +144,6 @@ PRODUCT_PACKAGES += \
     libfastrpc_utf_stub \
     libgpustats \
     libgsl \
-    libhdr_tm \
     libidl \
     libllvm-glnext \
     libmdmdetect \
@@ -438,6 +437,7 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgps.utils \
     libhdcpsrm \
+    libhdr_tm \
     libizat_client_api \
     libizat_core \
     libjnihelper \
