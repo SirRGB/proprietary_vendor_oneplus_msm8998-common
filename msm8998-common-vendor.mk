@@ -166,7 +166,6 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_encdec \
     libqmiservices \
-    libsdm-disp-vndapis \
     libsdsprpc \
     libseemore \
     libsensor1 \
@@ -364,6 +363,7 @@ PRODUCT_PACKAGES += \
     libsmwrapper \
     libstblur_capture_api \
     libasphere \
+    btaudio_offload_if \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
@@ -374,13 +374,17 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.3 \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.0-impl-qti \
+    audio.bluetooth_qti.default \
     com.dsi.ant@1.0-impl \
     keystore.msm8998 \
     vendor.qti.esepowermanager@1.0-impl \
     vendor.qti.gnss@3.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
+    vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
@@ -410,6 +414,9 @@ PRODUCT_PACKAGES += \
     libaoa \
     libbase64 \
     libbatching \
+    libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
+    libbt-hidlclient \
     libbtnv \
     libcacertclient \
     libcne \
@@ -475,6 +482,7 @@ PRODUCT_PACKAGES += \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-diag \
+    libsdm-disp-vndapis \
     libsecureui \
     libsecureui_svcsock \
     libsettings \
