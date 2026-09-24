@@ -470,6 +470,7 @@ PRODUCT_PACKAGES += \
     libril-qcril-hook-oem \
     librilqmiservices \
     librpmb \
+    libsdm-color \
     libsecureui \
     libsecureui_svcsock \
     libsettings \
@@ -482,6 +483,7 @@ PRODUCT_PACKAGES += \
     libsystem_health_mon \
     libthermalioctl \
     libtime_genoff \
+    libtinyxml2_1 \
     libtzdrmgenprov \
     libwms \
     libwqe \
