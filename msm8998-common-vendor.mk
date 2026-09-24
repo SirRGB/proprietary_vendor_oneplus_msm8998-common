@@ -433,6 +433,7 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgps.utils \
     libhdcpsrm \
+    libhdr_tm \
     libizat_client_api \
     libizat_core \
     libjnihelper \
