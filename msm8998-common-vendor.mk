@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/ashdr/iso617_4608x3456.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/iso617_4608x3456.ncf \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/ashdr/ncf_pack_imx371.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx371.ncf \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/imx371_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx371_chromatix.xml \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
